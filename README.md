@@ -31,12 +31,12 @@ This project uses Conda for environment management. Follow these steps to set up
 
 1. Install Anaconda or Miniconda if you haven't already.
 
-2. Create a new Conda environment: ``conda create -n mlproject python=3.8
-3.  Activate the environment:  ``conda activate mlproject
+2. Create a new Conda environment: `conda create -n mlproject python=3.8 `
+3.  Activate the environment:  `conda activate mlproject `
    <br>
    Or if using pip:
 
-  ``pip install -r requirements.txt <br>
+  `pip install -r requirements.txt ` <br>
 1. Clone this repository.
 2. Install the required dependencies (provide requirements.txt or environment setup instructions).
 3. Run the training pipeline: `python src/pipeline/train_pipeline.py`
