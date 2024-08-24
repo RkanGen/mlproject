@@ -19,7 +19,7 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          python app.py
+          python src/components/model_trainer.py
       - name: Write CML report
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
