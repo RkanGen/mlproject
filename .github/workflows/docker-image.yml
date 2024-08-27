@@ -18,4 +18,5 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: run the Docker image
       run: |
-         docker run -d -p 8080:8080
+         docker run -d -p 8080:8080 perform_student
+         CMD ["python3", "app.py"]
